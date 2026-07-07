@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 900px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: auto;
+}
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+legend {
+    font-weight: bold;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.form-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+/* Date & Time को भिन्न (Fraction) की तरह दिखाने के लिए */
+.fraction-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fraction-input input {
+    width: 90%;
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 2px;
+}
+.fraction-input input.time-input {
+    border-bottom: 2px solid #000;
+}
+.fraction-input input.date-input {
+    margin-top: 2px;
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.add-btn { background-color: #28a745; color: white; }
+.remove-btn { background-color: #dc3545; color: white; }
+.submit-btn {
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+}
+input[type="number"] { width: 80px; }
